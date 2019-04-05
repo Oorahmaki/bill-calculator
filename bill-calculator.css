@@ -1,0 +1,61 @@
+
+label{
+    font-family: "satisfy";
+    justify-self: right;
+    font-size: 28px;
+}
+
+
+h1{
+    font-family: "satisfy";
+}
+
+.submitButton{
+    font-family: "satisfy";
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.total{
+    display: flex;
+    font-family: "satisfy";
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: darkgoldenrod;
+    border-style: dotted;
+    text-align: center;
+    font-size: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+.totalContainer{
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+form{
+    width: 60%;
+    margin: auto;
+}
+
+input{
+    margin-top: 10px;
+    border: none;
+    font-family: "satisfy";
+    font-size: 20px;
+}
+
+.inputs{
+    margin-top: 60px;
+}
+
+h3{
+    font-family: "satisfy";
+    padding-right: 20px;
+}

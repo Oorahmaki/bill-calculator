@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Calculator</title>
+        <link href="bill-calculator.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    </head>
+    <body>
+        <h1>The Bill Calculator</h1>
+        <form>
+            <div class="inputs">
+            <label> Meal Charge :
+                <input class="mealCost" />
+            </label><br>
+            <label> Service Charge :
+                <input class="serviceCharge" />
+                </label><br>
+            <label> Tip :
+                <input class="tip" />
+            </label><br>
+            <input type="submit" class="submitButton"/>
+            </div>
+        </form>
+        <div class="totalContainer">
+        <h3>Total:</h3>
+        <div class="total"></div>
+        </div>
+    <script src="bill-calculator.js"></script>
+    </body>
+</html>
